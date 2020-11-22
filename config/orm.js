@@ -1,3 +1,4 @@
+// Import MySQL connection.
 var connection = require("../config/connection.js");
 
 // Helper function for SQL syntax.

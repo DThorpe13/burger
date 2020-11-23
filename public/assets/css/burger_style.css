@@ -1,7 +1,22 @@
 body {
     background-color: black;
+    font-family: 'Nerko One', cursive;
 }
 
 .jumbotron {
-    background-color: powderblue;
+    background: linear-gradient(to bottom, #ffff00 0%, #ff6666 100%);
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Nerko One', cursive;
 }
+
+.card {
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.card-header {
+    
+    font-family: 'Nerko One', cursive;
+    font-size: x-large;
+
+}
+

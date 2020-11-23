@@ -2,10 +2,10 @@ var express = require("express");
 
 var router = express.Router();
 
-//Import the model to use it DB functions
+//requiring in our burger.js(model)
 var burger = require("../models/burger.js");
 
-//create all routes and set up logic within routes where required
+//creating our routes for each page using our router
 router.get("/", function(req, res) {
     burger.all(function(data) {
         var hbsObject = {
@@ -23,7 +23,7 @@ router.post("/api/burgers", function(req, res) {
     ], [
         req.body.name
     ], function(result) {
-        //send back the ID of the new quote
+        
         res.json({ id: result.insertId });
     });
 });
@@ -37,7 +37,7 @@ router.put("/api/burgers/:id", function(req, res) {
         devoured: req.body.devour
     }, condition, function(result) {
         if (result.changedRows == 0) {
-            //If no rows were changed, then ID must not Exist, throw 404
+            
             return res.status(404).end();
         } else {
             res.status(200).end();
@@ -45,5 +45,5 @@ router.put("/api/burgers/:id", function(req, res) {
     });
 });
 
-//Export route for server.js
+//Exporting our route for our server
 module.exports = router;

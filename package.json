@@ -8,15 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JYoung32/burger.git"
+    "url": "git+https://github.com/DThorpe13/burger.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JYoung32/burger/issues"
-  },
-  "homepage": "https://github.com/JYoung32/burger#readme",
+  "homepage": "https://github.com/DThorpe13/burger#readme",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",

@@ -7,14 +7,16 @@ $(function() {
             name: $("#burgerEntry").val().trim()
         };
         console.log(newBurger);
-        //send POST request
+        
+        //send request 
         $.ajax("/api/burgers", {
             type: "POST",
             data: newBurger
         }).then(
             function() {
                 console.log(`created new burger`)
-                //reload page to get update list
+                
+                //reload page to get our updated list
                 location.reload();
             }
         );

@@ -47,10 +47,9 @@
 
     Please use the contact information below if you would like to reach me with any questions.
 
-    [Portfolio] (https://dthorpe13.github.io/ResponsivePortfolio/)
 
     GitHub Username | Dthorpe13
 
     GitHub Profile | github.com/Dthorpe13 
 
-    Email | <derekthorpe13@gmail.com>
+    Email | derekthorpe13@gmail.com

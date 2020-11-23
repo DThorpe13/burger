@@ -11,6 +11,7 @@ body {
 
 .card {
     border-radius: 15px 15px 15px 15px;
+    background-color: rgba(255, 255, 255, 0.5);
     
 }
 .card-header {
@@ -18,5 +19,11 @@ body {
     font-family: 'Nerko One', cursive;
     font-size: x-large;
 
+}
+#burgerEntry {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 
